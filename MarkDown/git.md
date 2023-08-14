@@ -68,7 +68,7 @@ https://git-scm.com/
 
 - git remote - exclui historico do .git
 
-- git clone "link do git" - para clonar trabalhos/arquivos do github
+- git clone "link do git" - para clonar trabalhos/arquivos do github.
 
 // TERMINAL VSCODE
 
