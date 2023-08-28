@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <style>
+        div{
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formularios</h1>
+    <!-- <form action="">
+        <div>
+            <label for="inome">Nome</label>
+            <input type="text" id="inome" name="Nome">
+            
+        </div>
+            
+        <div>
+            <label for="isobrenome">Sobrenome</label>
+            <input type="text" id="isobrenome" name="Sobrenome">
+        </div>
+
+        <input type="submit">
+
+    </form> -->
+   <hr>
+    <h2>Login</h2>
+
+    <form action="login.js" method="POST">
+        
+        <div>
+            <label for="iemail">Email:</label>
+            <input type="iemail" id="iemail" name="email" size="10" placeholder="email@.com" required>
+        </div>  
+        
+        <div>
+            <label for="isenha">Senha:</label>
+            <input type="password" name="isenha" id="isenha" maxlength="16" minlength="8" placeholder="Senha">
+        </div>
+
+        <div>
+            <label for="inascimento">Nascimento: </label>
+            <input type="date" id="idata" name="nascimento" required>
+        </div>
+        
+        <div>
+            <label for="icolor">Selecione a cor</label>
+            <input type="color" id="icolor" name="color">
+        </div>
+
+        <div>
+            <label for="ifile">Anexe um arquivo</label>
+            <input type="file" id="ifile" name="file">
+        </div>
+        
+        <div>
+            <label for="irange">range</label>
+            <input type="range" id="irange" name="range" max="5" min="1">
+        </div>
+        <input type="submit" value="Cadastrar">
+
+    </form>
+        
+</body>
+</html>

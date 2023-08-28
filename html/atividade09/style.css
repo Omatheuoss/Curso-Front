@@ -1,0 +1,12 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+button{
+    margin-top: 5%;
+}
+main{
+    background-image: url("pasta/imagens.jpg");
+}
