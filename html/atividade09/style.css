@@ -1,3 +1,7 @@
+@font-face {
+    font-family:'netflix' ;
+    src: url(../../Fontes/NetflixSans-Bold.otf);
+}
 *{
     padding: 0%;
     margin: 0%;
@@ -5,8 +9,26 @@
 
 
 button{
+<<<<<<< HEAD
     margin-top:;
+=======
+    
+>>>>>>> 72aa48a5940a34368e90697d1e181c86ee282abb
 }
 main{
     background-image: url("pasta/imagens.jpg");
+}
+img{
+    width: 350px;
+    margin-left: 45%;
+    margin-top: 1%;
+}
+a{
+    margin-left: 50%;
+    border-radius: 5%;
+}
+h1{
+    font-size: 68px;
+    font-family: 'netflix';
+    text-align: justify;
 }
