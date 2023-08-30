@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'netflix';
+    src: url(../../Fontes/NetflixSans-Bold.otf);
+}
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-image: url(../../Imagens/background.jpg);
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 100%;
+    justify-content: space-around;
+    box-sizing: border-box;
+    background-size: 100%;
+    
+   
+}
+img{
+    align-items: center;
+    margin-top: 40px;
+    width: 450px;
+    height: 250%;
+    margin-left: 390%;
+}
+a{
+    font-size:36px;
+    color: white;
+    text-decoration: none;
+    border-radius: 7%;
+    background-color: red;
+    margin-left: 700%;
+    margin-top: 20px;
+    border: 2px solid red;
+    padding: 10px;
+}
+p{
+    margin-right: ;
+    color: white;
+    font-family: 'netflix';
+    margin-top: 100px;
+} 
+
