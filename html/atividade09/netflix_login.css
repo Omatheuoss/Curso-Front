@@ -12,7 +12,7 @@ body{
     background-repeat: no-repeat;
 }
 
-body::before{
+body:before{
     content: '';
     background-color: rgb(0, 0, 0, .5);
     width: 100%;
@@ -52,6 +52,7 @@ body::before{
     font-size: 32px;
     color: #fff;
     margin-top: 0;
+    font-family: Arial;
 }
 
 .login_box input{
