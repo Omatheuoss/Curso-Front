@@ -1,0 +1,14 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    /* justify-content: space-between; */
+}
+body{
+    margin-left: 45%;
+    margin-top: 20%;
+}
+.form{
+    background-color: black;
+}
+
+
