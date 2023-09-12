@@ -1,0 +1,36 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.header{
+    text-align: center;
+    background-color: aqua;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    margin-top: auto;
+}
+.header a{
+    text-decoration: none;
+    margin-right: 7em;
+    padding: 10px 20px;
+    transition: color 0.3s;
+}
+.header a:active{
+    color: black;
+}
+.header a:hover{
+    color: #007bff;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+main{
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
