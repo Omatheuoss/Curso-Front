@@ -1,32 +1,32 @@
-const taskInput = document.getElementById('taskInput');
-const taskList = document.getElementById('taskList');
+const itensLista = [...document.querySelectorAll('li')]
+const botao = document.querySelector('button')
+const lista1 = document.getElementById('lista1')
+const lista2 = document.getElementById('lista2')
 
-taskInput.addEventListener('keypress', function (e) {
-    if (e.key === 'Enter' && taskInput.value.trim() !== '') {
-        addTask(taskInput.value);
-        taskInput.value = '';
-    }
-});
+// criando a classe select
+itensLista.forEach((item)=>{
+    item.addEventListener('click', () =>{
 
-function addTask(taskText) {
-    const li = document.createElement('li');
-    li.innerHTML = `
-        <span>${taskText}</span>
-        <button class="delete-button">Excluir</button>
-    `;
-    li.querySelector('button').addEventListener('click', () => {
-        li.remove();
-    });
+        item.classList.toggle('select')
 
-    li.addEventListener('click', () => {
-        li.classList.toggle('done');
-    });
+    })
+})
 
-    taskList.appendChild(li);
-}
-Este exemplo cria uma página da web simples que permite que você insira tarefas, marque-as como concluídas clicando nelas e exclua-as clicando no botão "Excluir". Certifique-se de criar arquivos HTML, CSS e JavaScript separados e vinculá-los corretamente para que a página funcione conforme esperado. Você também pode estilizar e expandir essa página de acordo com suas necessidades.
+botao.addEventListener('click', ()=>{
 
+    const primeiraLista = document.querySelector('.primeira')
+    const segundaLista = document.querySelector('.segunda')
 
+    const selectPrimeira = [...primeiraLista.querySelectorAll('.select')]
+    const selectSegunda = [...segundaLista.querySelectorAll('.select')]
 
+    selectPrimeira.forEach((item)=>{
+        item.classList.remove('select')
+        lista2.appendChild(item)
+    })
 
-
+    selectSegunda.forEach((item)=>{
+        item.classList.remove('select')
+        lista1.appendChild(item)
+    })
+})
