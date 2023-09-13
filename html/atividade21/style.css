@@ -41,8 +41,8 @@ li:hover{
     background-color: black;
 }
 .primeira .select{
-    box-shadow: 0 0 3px rgb(251, 255, 3), inset 0 0 3px green;
+    box-shadow: 0 0 3px green, inset 0 0 3px green;
 }
 .segunda .select{
-    box-shadow: 0 0 3px rgba(76, 0, 252, 0.986), inset 0 0 3px red;
+    box-shadow: 0 0 3px red, inset 0 0 3px red;
 }
