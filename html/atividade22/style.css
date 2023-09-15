@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;500;600;700&display=swap');
+
+:root {
+    --lightest:#FFFFFF;
+    --light:#94a1ac;
+    --mid:#8197A9;
+    --dark:#283845;
+    --darkest:#202C39;
+    --brand:#97591c;
+}
+
+*{
+    font-family: 'Cabin Condensed', 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    /* background-image: url(../../imagens/todolist/background.jpg); */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2em;
+}
+
+h1{
+    font-size: 3em;
+    font-weight: 700;
+}
+
+span {
+    color: var(--brand);
+}
+.container {
+    width: 80%;
+    padding: 2em 1em;
+    border-radius: 5px;
+    background-color: var(--dark);
+    box-shadow: 2px 2px 5px var(--darkest);
+    color: var(--lightest);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+    max-width: 750px;
+}
+
+#texto-input {
+    padding: 0.7em;
+    border-radius: 5px;
+    margin-right: 1em;
+    width: 80%;
+}
+
+#texto-input:focus {
+    outline: 1px solid var(--brand);
+}
+
+#cadastro {
+    margin-bottom: 2em;
+    width: 90%;
+    
+}
+
+#tarefas {
+    min-width: 90%;
+}
+
+ul {
+    list-style: none;
+    
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
+    background-color: var(--darkest);
+    margin: .3em;
+    border-radius: 5px;
+    align-items: center;
+}
+
+button {
+    padding: .7em;
+    background-color: var(--light);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+    color: #020202;
+}
+
+button.excluir{
+    background-image: url(../../Imagens/icons8-excluir-48.png);
+    background-size: 2em;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 3em;
+    height: 3em;
+    margin-right: 2em;
+}
+
+button.concluir{
+    background-image: url(../../Imagens/icons8-tarefa-concluída-48.png);
+    background-size: 2em;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 3em;
+    height: 3em;
+}
+
+button:hover {
+    color: var(--brand);
+    background-color: var(--lightest);
+}
+
+img{
+    width: 2em;
+}
+.concluido{
+    text-decoration: line-through;
+}
