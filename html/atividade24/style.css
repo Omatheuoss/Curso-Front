@@ -1,0 +1,48 @@
+@font-face {
+    /* font-family: 'font';
+     src: url(../../Fontes/DS-DIGI.TTF); */
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    
+}
+.hub{
+    text-align: center;
+    margin-top: 10%;
+    font-size: 56px;
+    font-family:Arial;
+}
+button{
+    height: 3.2em;
+    width: 6.5em;
+    border: none;
+    cursor: pointer;
+}
+h2{
+    color: #ff9500;
+}
+.start{
+    background-color: rgb(116, 250, 116);
+}
+.reder{
+    background-color: rgb(218, 233, 13);
+}
+.stop{
+    background-color: rgb(250, 94, 94);
+}
+.back{
+    background-color: cornflowerblue;
+}
+.start:hover{
+   background-color: rgb(137, 223, 137);
+}
+.reder:hover{
+    background-color: rgb(234, 241, 125);
+}
+.stop:hover{
+    background-color: rgb(216, 123, 123);
+}
+.back:hover{
+    background-color: rgb(139, 173, 236);
+}

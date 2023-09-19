@@ -1,0 +1,18 @@
+{
+
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(../../Imagens/doutor.jpg);
+    margin-top: 26%;
+} 
+.relogio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+.horas{
+    border: 2px solid black;
+}
