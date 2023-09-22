@@ -10,6 +10,7 @@ body{
     height: 100vh;
     background-image: url(../../Imagens/doutor.jpg);
     background-repeat: no-repeat;
+    overflow: hidden;
 } 
 .relogio{
     display: flex;
@@ -20,6 +21,7 @@ body{
     background: transparent;
     border-radius: 3px;
     box-shadow: 0px 8px 10px black;
+    
 }
 .relogio div{
     height: 170px;
