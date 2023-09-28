@@ -36,7 +36,7 @@ nav a:hover {
 }
 
 .card {
-    width: 300px;
+    width: 250px;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin: 10px;
@@ -49,6 +49,10 @@ nav a:hover {
     height: 200px;
     object-fit: cover;
     width: 200px;
+}
+
+.card:hover{
+    background-color:#faf7f7;
 }
 
 .card h2 {
